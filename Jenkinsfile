@@ -1,4 +1,4 @@
-node('php'){
+node('NodePHP'){
     stage('Clean'){
         deleteDir()
         sh 'ls -la'
